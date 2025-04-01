@@ -4,5 +4,25 @@
     "tsconfig.json": "tsconfig.*.json, env.d.ts",
     "vite.config.*": "jsconfig*, vitest.config.*, cypress.config.*, playwright.config.*",
     "package.json": "package-lock.json, pnpm*, .yarnrc*, yarn*, .eslint*, eslint*, .prettier*, prettier*, .editorconfig"
-  }
+  },
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#27fbdb",
+    "activityBar.background": "#27fbdb",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#e563fc",
+    "activityBarBadge.foreground": "#15202b",
+    "commandCenter.border": "#15202b99",
+    "sash.hoverBorder": "#27fbdb",
+    "statusBar.background": "#04ebc8",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#03b99d",
+    "statusBarItem.remoteBackground": "#04ebc8",
+    "statusBarItem.remoteForeground": "#15202b",
+    "titleBar.activeBackground": "#04ebc8",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveBackground": "#04ebc899",
+    "titleBar.inactiveForeground": "#15202b99"
+  },
+  "peacock.color": "#04ebc8"
 }

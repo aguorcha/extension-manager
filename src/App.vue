@@ -5,7 +5,7 @@ import Cards from "./components/Cards.vue";
 </script>
 
 <template>
-  <div class="h-screen bg-gradient-light flex flex-col items-center">
+  <div class="min-h-screen bg-gradient-light flex flex-col items-center">
     <Header />
     <Filters />
     <Cards />
