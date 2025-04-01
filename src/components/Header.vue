@@ -52,12 +52,12 @@ const themeStore = useThemeStore();
     >
       <img
         v-if="themeStore.isDark"
-        src="../assets/images/icon-sun.svg"
+        src="../../public/images/icon-sun.svg"
         alt="Switch to light mode"
       />
       <img
         v-else
-        src="../assets/images/icon-moon.svg"
+        src="../../public/images/icon-moon.svg"
         alt="Switch to dark mode"
       />
     </button>
